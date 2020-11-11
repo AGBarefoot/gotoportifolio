@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+     <title>Portifólio | Educafrotech</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="Do código ao uso: desenvolvimento de sistemas para incluir pessoas. Apresentação profissional de desenvolvedora formada pela Educafrotech.">
+     <meta name="keywords" content="Desenvolvimento de Sistemas, Inclusão, Acessibilidade, Portifólio">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/aos.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="css/templatemo-digital-trend.css">
+</head>
+<body>
+    <section class="testimonial section-padding">
+        <div class="container">
+             <div class="row">
+                  <div class="col-lg-6 col-md-5 col-12">
+                      <div class="contact-image" data-aos="fade-up">
+                        <img src="images/female-avatar.png" class="img-fluid" alt="Desenho de moça com cabelos médios com franja.">
+                      </div>
+                  </div>
+                  <div class="col-lg-6 col-md-7 col-12">
+                    <h4 class="my-5 pt-3" data-aos="fade-up" data-aos-delay="100">Trabalho com gosto</h4>
+                    <div class="quote" data-aos="fade-up" data-aos-delay="200"></div>
+                    <h2 class="mb-4" data-aos="fade-up" data-aos-delay="300">Gosto de Gente. Sou apaixonada por gente. Aprender com as pessoas é motivo de alegria e realização.</h2>
+                    <p data-aos="fade-up" data-aos-delay="400">
+                      <strong>Ana</strong>
+                      <span class="mx-1">/</span>
+                      <small>Desenvolvedora</small>
+                    </p>
+                  </div>
+
+             </div>
+        </div>
+   </section>
+   <style>
+     * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box; 
+     }
+     
+     body {
+       background: #efefef;
+       color: #333;
+       font-family: 'Open Sans', sans-serif;
+     }
+     
+    
+     
+     .wrap {
+       width: 100%;
+       height: 100vh;
+       display: -ms-flexbox;
+       display: -webkit-flex;
+       display: flex;
+       -webkit-flex-direction: row;
+       -ms-flex-direction: row;
+       flex-direction: row;
+       -webkit-flex-wrap: wrap;
+       -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+       -webkit-justify-content: center;
+       -ms-flex-pack: center;
+       justify-content: center;
+       -webkit-align-content: stretch;
+       -ms-flex-line-pack: stretch;
+       align-content: stretch;
+       -webkit-align-items: center;
+       -ms-flex-align: center;
+       align-items: center;
+     }
+     
+       .page-header, .page-footer {
+         width: 100%;
+         margin: 20px;
+         text-align: center; 
+       }
+           @media (min-width: 800px) {
+             .page-header, .page-footer {
+               width: 800px;
+               padding: 0;
+              
+             }
+           }
+         .page-header p {
+           margin-top: 20px;
+           font-size: .8em;
+         }
+     .page-footer p {
+       color: #ccc;
+      
+     }
+     .page-footer a {
+       color: #000;
+       text-decoration: none;
+     }
+     
+     
+     .gallery-container {
+       width: 90%;
+       position: relative;
+       margin: 0 5%;
+       background: #333;
+       padding: 2px;
+       
+     }
+       @media (min-width: 480px) {
+           .gallery-container {
+             width: 800px;
+             margin: auto;
+           }
+       }
+     
+     .mySlides {
+       display: none;
+     }
+     
+     
+     .prev, .next {
+       cursor: pointer;
+       position: absolute;
+       top: 50%;
+       width: auto;
+       margin-top: -22px;
+       padding: 16px;
+       color: white;
+       font-weight: bold;
+       font-size: 28px;
+       transition: 0.6s ease;
+       border-radius: 0 3px 3px 0;
+       background-color: rgba(0,0,0,0.1);
+     }
+     
+     
+     .next {
+       right: 0;
+       border-radius: 3px 0 0 3px;
+     }
+     
+     
+     .prev:hover, .next:hover {
+       background-color: rgba(0,0,0,0.8);
+     }
+     
+     
+     .text {
+       color: #f2f2f2;
+       font-size: 12px;
+       padding: 8px 12px;
+       width: 100%;
+       text-align: center;
+     }
+     
+     .imgslide {
+       width: 100%;
+     }
+     
+     .numbertext {
+       color: #f2f2f2;
+       font-size: 12px;
+       padding: 8px 12px;
+       position: absolute;
+       top: 0;
+     }
+     @media (max-width: 768px) {
+       .numbertext {
+         top: 15px;
+       }
+     }
+     
+     .fade {
+       -webkit-animation-name: fade;
+       -webkit-animation-duration: 1.5s;
+       animation-name: fade;
+       animation-duration: 1.5s;
+     }
+     
+     @-webkit-keyframes fade {
+       from {opacity: .4}
+       to {opacity: 1}
+     }
+     
+     @keyframes fade {
+       from {opacity: .4}
+       to {opacity: 1}
+     }
+     
+             </style>
+             <div id="Slides com JS" class="section"></div>
+             <section class="container gallery-container">  
+                 <div class="mySlides"> 
+                     <div class="numbertext">01 / 04</div>
+                     <img class="imgslide" src="DicasDigitais.jpg" alt="Dicas Digitais: Plataforma de Cursos e Recursos Digitais gratuitos."/>
+                     <div class="text"><font style size="3px">Projeto Pessoal para promover a Inclusão Digital</font></div>
+                 </div>
+     
+                 <div class="mySlides"> 
+                     <div class="numbertext">02 / 04</div>
+                     <img class="imgslide" src="Cisarte.jpg" alt="Centro de Integração Social pela Arte, Trabalho e Educação: site institucional"/>
+                     <div class="text"><font style size="3px">Site Institucional do Cisarte</font></div>
+                 </div>       
+     
+                 <div class="mySlides"> 
+                     <div class="numbertext">03 / 04</div>
+                     <img class="imgslide" src="DigitaldaRua.jpg" alt="Digital da Rua: Estamparia de Camisetas"/>
+                     <div class="text"><font style size="3px">Site Institucional para Estamparia</font></div>
+                 </div>
+     
+                 <div class="mySlides"> 
+                     <div class="numbertext">04 / 04</div>
+                     <img class="imgslide" src="mulheresetecnologia.jpg" alt="Banco de Imagens sobre Mulheres e Tecnologia Acessível ao Autista."/>
+                     <div class="text" ><font style size="3px">Acessibilidade Cognitiva em Banco de Imagens</font></div>
+                 </div>                 
+                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+             </section>
+             <div vw class="enabled" aria-labelledby="tradutordelibras">
+               <div vw-access-button class="active" role="button"></div>
+               <div vw-plugin-wrapper>
+                 <div class="vw-plugin-top-wrapper"></div>
+               </div>
+               </div>
+               <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+               <script>
+               new window.VLibras.Widget('https://vlibras.gov.br/app');
+               </script>              
+                    </div>
+                    <div>
+                    </div>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                    <footer class="site-footer">
+                         <div class="container">
+                           <div class="row">         
+                             <div class="col-lg-5 mx-lg-auto col-md-8 col-10">
+                               <h1 class="text-white" data-aos="fade-up" data-aos-delay="100">Soluções sob medida para <strong>você.</strong></h1>
+                             </div>            
+                             <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                               <h4 class="my-4"><font style color="white">Contato</font></h4>               
+                               <p>
+                                 <a href="#">
+                                   <a href="https://ubuntulasthub.com.br/" target=_blank>@UBUNTU LAST HUB´S<br> Partner Developer</a>                             
+                               </p>
+                              </div>
+                       </footer>   
+         <script>
+     //Idéia Original do Slide por Wtricks
+     var slideIndex = 1;
+     showSlides(slideIndex);
+     
+     function plusSlides(n) {
+       showSlides(slideIndex += n);
+       ga('send', 'event', 'galeria', 'next_prev', 'Titulo da página');
+     }
+     
+     function currentSlide(n) {
+       showSlides(slideIndex = n);
+     }
+     
+     function showSlides(n) {
+       var i;
+       var slides = document.getElementsByClassName("mySlides");
+       if (n > slides.length) {
+         slideIndex = 1
+       }
+       if (n < 1) {
+         slideIndex = slides.length
+       }
+       for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";
+       }
+       slides[slideIndex - 1].style.display = "block";
+     }
+     
+      </script>  
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/aos.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/smoothscroll.js"></script>
+   <script src="js/custom.js"></script>
+</body>
+</html>
